@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM</h2>
+<p>Changing the HTML style:</p>
+
+<div id="pr" style="display: flex;">
+    <img src="./screenshot.png" width="100px" height="100px" alt="">
+    
+</div>
+<p id="p1">Hello World!</p>
+<p id="p2">Hello World!</p>
+
+<button onclick="tie()">click here</button>
+<button onClick="window.location.reload();">Refresh Page</button>
+<script>
+function tie(){
+    document.getElementById("pr").style.justifyContent="flex-end";
+}
+
+</script>
+
+
+</body>
+</html>
